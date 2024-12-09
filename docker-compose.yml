@@ -22,7 +22,7 @@ services:
     depends_on:
       - db # Ensures the database service starts before the web service
     environment:
-      DATABASE_HOST: db
+      DATABASE_HOST: localhost
       DATABASE_USER: postgres
       DATABASE_PASSWORD: postgres
       DATABASE_NAME: scaffold_app_development
