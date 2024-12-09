@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_HUB_REPOSITORY_NAME }}:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/scaffold_project_repo:latest
